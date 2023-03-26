@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Primate Fighting Competition</title>
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+
+        <script src="../js/home.js" defer></script>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+    </head>
+
+    <body id="body">
+        <div class="container">
+            <div id="full-menu" class="full-menu">
+                <div class="menu-container">
+                    <div id="menu-section-left" class="menu-section">
+                        <div id="events-full-menu" class="menu-item"><a href="#" >Events</a></div>
+                        <div id="rankings-full-menu" class="menu-item"><a href="#" >Rankings</a></div>
+                        <div id="athletes-full-menu" class="menu-item"><a href="#" >Athletes</a></div>
+                        <div id="news-full-menu" class="menu-item"><a href="#" >News</a></div>
+                    </div>
+                    <div class="menu-section"><div id="center-logo-full-menu" class="menu-item center-logo"><a href="#">PFC</a></div></div>
+                    <div class="menu-section">
+                        <div id="videos-full-menu" class="menu-item"><a href="#">Videos</a></div>
+                        <div id="connect-full-menu" class="menu-item"><a href="#">Connect</a></div>
+                        <div id="watch-full-menu" class="menu-item"><a href="#">Watch</a></div>
+                        <div id="shop-full-menu" class="menu-item"><a href="#">Shop</a></div>
+                        <div id="search-full-menu" class="menu-item"><a href="#">Search</a></div>
+                    </div>
+                </div>
+                <div id="full-menu-underline" class="menu-underline"></div>
+                <div id="sub-full-menu" class="sub-menu">
+                </div>
+            </div>
+
+            <nav id="desktop-menu">
+                <div class="menu">
+                    <div class="menu-container">
+                        <div id="menu-section-left" class="menu-section">
+                            <div id="events-item" class="menu-item"><a href="#" >Events</a></div>
+                            <div id="rankings-item" class="menu-item"><a href="#" >Rankings</a></div>
+                            <div id="athletes-item" class="menu-item"><a href="#" >Athletes</a></div>
+                            <div id="news-item" class="menu-item"><a href="#" >News</a></div>
+                        </div>
+                        <div class="menu-section"><div id="center-logo" class="menu-item center-logo"><a href="#">PFC</a></div></div>
+                        <div class="menu-section">
+                            <div id="videos-item" class="menu-item"><a href="#">Videos</a></div>
+                            <div id="connect-item" class="menu-item"><a href="#">Connect</a></div>
+                            <div id="watch-item" class="menu-item"><a href="#">Watch</a></div>
+                            <div id="shop-item" class="menu-item"><a href="#">Shop</a></div>
+                            <div id="search-item" class="menu-item"><a href="#">Search</a></div>
+                        </div>
+                    </div>
+                    <div id="floating-menu-underline" class="menu-underline"></div>
+                    <div id="sub-floating-menu" class="sub-menu">
+                    </div>
+                </div>
+            </nav>
+
+            <div class="top-nav-container">
+                <div class="top-nav">
+                    <a class="left-menu" href="#">PFC</a>
+                    <a class="icon mobile-menu-icon" onclick="openMenu()" href="javascript:void(0);">
+                        menu<i id="menu-chevron" class="fa fa-chevron-down"></i>
+                    </a>
+                    <a class="icon right-menu"  href="#">
+                        Search
+                    </a>
+                </div>
+                <div  id="top-nav-overlay" class="top-nav-overlay">
+                    <div class="top-nav-overlay-content">
+                        <a id="events-btn" href="javascript:void(0)">Events</a>
+                        <div id="events" class="mobile-sub-menu"></div>
+                        <a href="#">Rankings</a>
+                        <a id="athletes-btn" href="#">Athletes</a>
+                        <div id="athletes" class="mobile-sub-menu"></div>
+                        <a href="#">News</a>
+                        <a href="#">Videos</a>
+                        <a href="#">Connect</a>
+                        <a id="watch-btn" href="#">Watch</a>
+                        <div id="watch" class="mobile-sub-menu"></div>
+                        <a href="#">Shop</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="splash-section">
+                <!-- top splash image -->
+                <div class="splash-header">
+                    <div>
+                        <span class="title">PFC 69:</span> <br>Start of an Era
+                    </div>
+                    <p>Find out which Monkeys will go Bananas this Weekend!</p>
+                    <div class="splash-buttons">
+                        <button><a href="#">Read More</a></button>
+                        <button><a href="#">Order PFC 69</a></button>
+                    </div>
+                </div>
+                <img src="../images/centered_splash.png">
+            </div>
+            
+            <div class="main-content">
+
+                <div class="main-content-banner">
+                    <div class="versus-container">
+                        <div id="fighter-image-1" class="fighter-image-1">
+                        </div>
+                        <div class="versus-text"><span id="fighter-text-1"></span> <br>Vs. <span id="fighter-text-2"></span></div>
+                        <div id="fighter-image-2" class="fighter-image-2"></div>
+                    </div>
+                </div>
+
+                <div class="grid-container">
+                    <div class="grid-item grid-item-1 reveal">
+                        <img src="../images/frontpage_photos/space-monke.png" alt="space monkey"> 
+                    </div>
+                    <div class="grid-item grid-item-2 reveal">
+                        <span class="card-title-text">Upcoming Fighting Event</span>
+                        <p>Grudge Rematch between Se&ntilde;or Monke, and The Bannana Bandit! "he stole my bananas and he stole my wife..."</p>
+                    </div>
+                    <div class="grid-item grid-item-3 reveal side-by-side">
+                        <div id="image">
+                            <img src="../images/frontpage_photos/nondescript-monke.png" alt="grey and brown monkey">
+                        </div>
+                        <div id="text">Potential New Fighter Joining in on Waina Wright's container series, even after such a prolific professional record of 9-0 outside the PFC in just 1 year, his face is still shrouded in mystery, literally.</div>
+                    </div>
+                    <div class="grid-item grid-item-4 reveal">
+                        <img src="../images/frontpage_photos/kungfu-monke-1.png">
+                    </div>
+                    <div class="grid-item grid-item-5 reveal"></div>
+                    <div class="grid-item grid-item-6 reveal">
+                        <img src="../images/frontpage_photos/zombie-monke.png" alt="zombie monkey">
+                    </div>
+                    <div class="grid-item grid-item-7 reveal">
+                        <img src="../images/frontpage_photos/descript-monke.png" alt="">
+                    </div>
+                    <div class="grid-item grid-item-8 reveal"></div>
+                </div>
+            </div>
+        </div>
+        <div id="footer" class="footer">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <span class="logo">PFC</span> <br> pfc.com
+                </div>
+                <div class="footer-line"></div>
+                <div class="footer-links">
+                    <ul>
+                        <span class="links-header">PFC</span>
+                        <li><a href="#">The Sport</a></li>
+                        <li><a href="#">PFC Foundation</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Store</a></li>
+                    </ul>
+                    <ul>
+                        <span class="links-header">Social Media</span>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">TikTok</a></li>
+                        <li><a href="#">Twitch</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+                    <ul>
+                        <span class="links-header">Help</span>
+                        <li><a href="#">Fight Pass FAQ</a></li>
+                        <li><a href="#">Devices</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Credentials</a></li>
+                    </ul>
+                    <ul>
+                        <span class="links-header">Legal</span>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Ad Choices</a></li>
+                    </ul>
+                </div>
+                <div class="footer-line"></div>
+            </div>
+        </div>
+    </body>
+</html>

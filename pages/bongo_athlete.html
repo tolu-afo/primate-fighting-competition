@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Primate Fighting Competition</title>
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+
+        <script src="../js/home.js" defer></script>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+    </head>
+
+    <body id="body">
+        <div class="container">
+            <!-- TOP BAR -->
+            <div id="full-menu" class="full-menu">
+                <div class="menu-container">
+                    <div id="menu-section-left" class="menu-section">
+                        <div id="events-full-menu" class="menu-item"><a href="#" >Events</a></div>
+                        <div id="rankings-full-menu" class="menu-item"><a href="#" >Rankings</a></div>
+                        <div id="athletes-full-menu" class="menu-item"><a href="#" >Athletes</a></div>
+                        <div id="news-full-menu" class="menu-item"><a href="#" >News</a></div>
+                    </div>
+                    <div class="menu-section"><div id="center-logo-full-menu" class="menu-item center-logo"><a href="./index.html">PFC</a></div></div>
+                    <div class="menu-section">
+                        <div id="videos-full-menu" class="menu-item"><a href="#">Videos</a></div>
+                        <div id="connect-full-menu" class="menu-item"><a href="#">Connect</a></div>
+                        <div id="watch-full-menu" class="menu-item"><a href="#">Watch</a></div>
+                        <div id="shop-full-menu" class="menu-item"><a href="#">Shop</a></div>
+                        <div id="search-full-menu" class="menu-item"><a href="#">Search</a></div>
+                    </div>
+                </div>
+                <div id="full-menu-underline" class="menu-underline"></div>
+                <div id="sub-full-menu" class="sub-menu">
+                </div>
+            </div>
+
+            <nav id="desktop-menu">
+                <div class="menu">
+                    <div class="menu-container">
+                        <div id="menu-section-left" class="menu-section">
+                            <div id="events-item" class="menu-item"><a href="#" >Events</a></div>
+                            <div id="rankings-item" class="menu-item"><a href="#" >Rankings</a></div>
+                            <div id="athletes-item" class="menu-item"><a href="#" >Athletes</a></div>
+                            <div id="news-item" class="menu-item"><a href="#" >News</a></div>
+                        </div>
+                        <div class="menu-section"><div id="center-logo" class="menu-item center-logo"><a href="./index.html">PFC</a></div></div>
+                        <div class="menu-section">
+                            <div id="videos-item" class="menu-item"><a href="#">Videos</a></div>
+                            <div id="connect-item" class="menu-item"><a href="#">Connect</a></div>
+                            <div id="watch-item" class="menu-item"><a href="#">Watch</a></div>
+                            <div id="shop-item" class="menu-item"><a href="#">Shop</a></div>
+                            <div id="search-item" class="menu-item"><a href="#">Search</a></div>
+                        </div>
+                    </div>
+                    <div id="floating-menu-underline" class="menu-underline"></div>
+                    <div id="sub-floating-menu" class="sub-menu">
+                    </div>
+                </div>
+            </nav>
+
+            <div class="top-nav-container">
+                <div class="top-nav">
+                    <a class="left-menu" href="./index.html">PFC</a>
+                    <a class="icon mobile-menu-icon" onclick="openMenu()" href="javascript:void(0);">
+                        menu<i id="menu-chevron" class="fa fa-chevron-down"></i>
+                    </a>
+                    <a class="icon right-menu"  href="#">
+                        Search
+                    </a>
+                </div>
+                <div  id="top-nav-overlay" class="top-nav-overlay">
+                    <div class="top-nav-overlay-content">
+                        <a id="events-btn" href="javascript:void(0)">Events</a>
+                        <div id="events" class="mobile-sub-menu"></div>
+                        <a href="#">Rankings</a>
+                        <a id="athletes-btn" href="#">Athletes</a>
+                        <div id="athletes" class="mobile-sub-menu"></div>
+                        <a href="#">News</a>
+                        <a href="#">Videos</a>
+                        <a href="#">Connect</a>
+                        <a id="watch-btn" href="#">Watch</a>
+                        <div id="watch" class="mobile-sub-menu"></div>
+                        <a href="#">Shop</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- END TOP BAR -->
+            <div class="athlete-content-section">
+                <div class="athlete-showcase">
+                    <div class="fighter-stats">
+                        <!-- nickname -->
+                        <h2 style="opacity:.5;">"Bongo"</h2>
+                        <!-- name -->
+                        <h1>Bongo</h1>
+                        <!-- division -->
+                        <h1>Catchweight Division</h1>
+                        <!-- record -->
+                        <span>27-1-0 (W-L-D)</span>
+                        <!-- wins by knockout/submission -->
+                        <div id="win-stats" class="wins-by">
+                            <div class="win-stats-card wins-by-submission right-border">
+                                <h1>8</h1>
+                                <div class="dividing-line"></div>
+                                <span class="stat-card-text">Wins by Submission</span>
+                            </div>
+                            <div class="win-stats-card wins-by-knockout">
+                                <h1>12</h1>
+                                <div class="dividing-line"></div>
+                                <span class="stat-card-text">Wins by Knockout</span>
+                            </div>
+                            <div class="win-stats-card wins-first-round left-border">
+                                <h1>3</h1>
+                                <div class="dividing-line"></div>
+                                <span class="stat-card-text">First Round Knockouts</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fighter-image">
+                        <img src="../images/faceoffs/bongo_faceoff.png" alt="bongo the fighter">
+                    </div>
+                    <div class="fight-history">
+                        <!-- last fight -->
+                        <h2>Last Fight</h2>
+                        <div class="fight-faceoff-card">
+                            <div class="image-box">
+                                <div class="fighter-images fighter-images-1">
+                                    <img src="../images/faceoffs/bongo_faceoff.png">
+                                </div>
+                                <div class="fighter-images fighter-images-2">
+                                    <img src="../images/faceoffs/bannana_bandit_faceoff.png">
+                                </div>
+                            </div>
+                            <div class="text-box">Bongo Vs. Bosco<br>Apr. 20, 2022</div>
+                            <div class="win-box">Win</div>
+                        </div>
+                        <div class="upcoming-fight"></div>
+                    </div>
+
+                </div>
+                <div class="athlete-spotlight">
+                    <!-- 4 cards  -->
+                    <div class="spotlight-card">
+
+                        <div class="caption-box"></div>
+                    </div>
+
+                    <div class="spotlight-card">
+
+                        <div class="caption-box"></div>
+                    </div>
+
+                    <div class="spotlight-card">
+
+                        <div class="caption-box"></div>
+                    </div>
+                    
+                    <div class="spotlight-card">
+
+                        <div class="caption-box"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="footer" class="footer">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <span class="logo">PFC</span> <br> pfc.com
+                </div>
+                <div class="footer-line"></div>
+                <div class="footer-links">
+                    <ul>
+                        <span class="links-header">PFC</span>
+                        <li><a href="#">The Sport</a></li>
+                        <li><a href="#">PFC Foundation</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Store</a></li>
+                    </ul>
+                    <ul>
+                        <span class="links-header">Social Media</span>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">TikTok</a></li>
+                        <li><a href="#">Twitch</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+                    <ul>
+                        <span class="links-header">Help</span>
+                        <li><a href="#">Fight Pass FAQ</a></li>
+                        <li><a href="#">Devices</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Credentials</a></li>
+                    </ul>
+                    <ul>
+                        <span class="links-header">Legal</span>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Ad Choices</a></li>
+                    </ul>
+                </div>
+                <div class="footer-line"></div>
+            </div>
+        </div>
+    </body>
+</html>
